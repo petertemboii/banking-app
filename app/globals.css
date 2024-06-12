@@ -61,7 +61,7 @@
   }
 
   .header-2 {
-    @apply text-18 font-semibold text-gray-900;
+    @apply text-18 font-semibold text-gray-900 ;
   }
 
   .text-10 {
@@ -165,6 +165,7 @@
   .profile {
     @apply relative flex px-6 max-xl:justify-center;
   }
+  /* -top-[-7rem] */
 
   .profile-img {
     @apply flex-center absolute -top-8 size-24 rounded-full bg-gray-100 border-8 border-white p-2 shadow-profile;
